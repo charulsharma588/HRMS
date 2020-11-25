@@ -1,0 +1,30 @@
+body{
+  background-image: url("img.jpg");
+}
+.bck{
+  margin: 200px;
+width: 350px;
+height: 450px;
+padding: 10px;
+opacity: 0.85;
+background-color:white;
+color: rgb(0, 41, 102);
+
+}
+.pg{
+
+  text-align: left;
+margin-top: 60px;
+
+}
+.txt{
+  outline: 0;
+  border-style: hidden;
+  border-bottom-style: groove;
+
+  width: 90%;
+}
+.btn{
+  opacity: 1;
+  z-index: 1;
+}
