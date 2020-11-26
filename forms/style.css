@@ -1,0 +1,25 @@
+.x{
+  background-color:rgb(194, 194, 163);
+}
+.big{
+  border-style:none;
+  margin:8px 40px 40px 40px  ;
+  border-color: lightgrey;
+  height:730px;
+  background-color: rgb(224, 224, 209);
+ font-size: 15px;
+
+}
+.first{
+  margin: 80px 0 0 10px;
+}
+.space{
+  width: 300px;
+  height: 40px;
+}
+.scnd{
+right: 0;
+}
+.navbar{
+  color: white;
+}
