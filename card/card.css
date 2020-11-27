@@ -1,0 +1,29 @@
+
+.card{
+
+  width: 12rem;
+  height: 18rem;
+  margin: 20px;
+  text-align: center;
+  font-family: serif;
+}
+
+.space{
+  margin: 6rem;
+
+}
+.down{
+  margin: 3rem 16rem 0rem 7rem ;
+  height: 150px;
+padding: 10px;
+  background-color: #ffffff;
+}
+.c{
+  margin-left: 63rem;
+  margin-top:0rem;
+}
+.heading{
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
