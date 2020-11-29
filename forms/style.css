@@ -1,30 +1,52 @@
-h1{
-font-family: sans-serif;
-}
+/* h1{
+font-family: ;
+} */
 .x{
-  background-color:rgb(194, 194, 163);
+  background-color:black;
 }
+
 .big{
   border-style:none;
-  margin:8px 40px 40px 40px  ;
+  padding: 18px;
   border-color: lightgrey;
-  height:730px;
-  background-color: rgb(224, 224, 209);
- font-size: 16px;
- font-family: serif;
-
+  height:740px;
+  background-color: white;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+   margin-top: 20px;
 
 }
 .first{
   margin: 60px 0 0 10px;
+
 }
-.space{
+.space,.sel{
   width: 300px;
   height: 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: powderblue;
+  border: 1px solid black;
 }
 .scnd{
-right: 0;
+  right: 0;
 }
 .navbar{
   color: white;
+
+}
+.nv{
+  height: 100px;
+  width: 150px;
+  background-image: url("celebal.webp");
+  background-size: 150px 60px;
+  background-repeat: no-repeat;
+  color: white;
+  padding:4px;
+  margin-top:18px;
+}
+.sel{
+  border-radius:3px;
+  height:40px;
 }

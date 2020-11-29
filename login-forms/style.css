@@ -1,8 +1,10 @@
 body{
-  background-image: url("img.jpg");
+background-image: url("img.jpg");
+background-size:1920px 1080px;
 }
 .bck{
-  margin: 200px;
+  margin: 190px;
+
 width: 350px;
 height: 450px;
 padding: 10px;

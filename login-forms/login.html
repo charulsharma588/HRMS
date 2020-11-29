@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  </head>
-  <body>
-    <center>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body >
+  <center>
+    <div class="box">
+      <form method="post" enctype="multipart/form-data">
 
-        <form method="post" enctype="multipart/form-data">
+        <div class="bck" >
+          <h1 style="margin-top:0px;">Login</h1>
+          <div class="pg">
 
-          <div class="bck" >
-               <h1 style="margin-top:0px;"><i class="fa fa-user" aria-hidden="true"></i>Login</h1>
-            <div class="pg">
-
-              <label>Email Id</label><br>
-    <span><i class="fa fa-envelope" aria-hidden="true"></i> <input type="text" name="email" class="txt" placeholder="Enter E-mail"></span><br><br><br>
-              <label>Password</label><br>
-              <span><i class="fa fa-key" aria-hidden="true"></i><input type="password" name="pwd" class="txt" placeholder="Enter password"></span><br><br><br>
-            <a href="#" >Forgot Password</a>
-            </div><br><br>
-<button type="button" class="btn btn-primary">Log In</button>
-          </div>
+            <label>Email Id</label><br>
+            <span> <input type="text" name="email" class="txt" placeholder="Enter E-mail"></span><br><br><br>
+            <label>Password</label><br>
+            <span><input type="password" name="pwd" class="txt" placeholder="Enter password"></span><br><br><br>
+            <!-- <a href="#" >Forgot Password</a> -->
+          </div><br><br>
+          <button type="button" class="btn btn-dark">Log In</button>
+        </div>
+      </form>
 
 
-        </form>
-        </center>
-  </body>
+
+
+  </center>
+</body>
 </html>
