@@ -7,80 +7,96 @@
    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
-  <body style="background-color:#f2f2f2">
-    <nav class="navbar navbar-dark" style="background-color:#ffffff">
- <button type="button" class="btn btn-primary" name="button" style="margin-left: 90rem;">Apply Leave</button>
+  <body style="background-color:#f5f5f0">
+    <nav class="navbar navbar-primary" style="background-color:#000080">
+ <button type="button" class="btn btn-primary" name="button" style="margin-left: 90rem;background-color:white;color:blue">Apply Leave</button>
 </nav>
-    <div class="space">
+    <div class="space  ">
+
+<div class="place ">
 
 
     <table >
       <tr>
         <td >
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
+          <div class="card " >
+          <div class="card-body cls ">
           <label class="heading">Casual Leave</label><br><br><br><label><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#0066ff"></i></label>
-          <br><br><br><label>Available :</label>
-          <br><label>Booked :</label>
+          <br><br><br><label for="casuala">Available :  </label><br>
+          <progress id="casuala" value="32" max="100"> 32% </progress>
+          <br><label for="casualb">Booked :  </label><br>
+          <progress id="casualb" value="68" max="100"> 68% </progress>
           </div>
         </div>
         </td>
         <td>
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
+          <div class="card " >
+          <div class="card-body " style="background-color:powderblue">
             <label class="heading">Compensatory Off</label><br><br><br><label><i class="fa fa-lg fa-calendar-check"  style="font-size:48px;  color:#356600"></i></label>
-            <br><br><br><label>Available :</label>
-            <br><label>Booked :</label>
+            <br><br><br><label for="compensata">Available :  </label><br>
+            <progress id="compensata" value="32" max="100"> 32% </progress>
+            <br><label for="compensatb">Booked :  </label><br>
+            <progress id="compensatb" value="68" max="100"> 68% </progress>
           </div>
         </div>
         </td>
         <td>
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
+          <div class="card" >
+          <div class="card-body cls ">
             <label for="" class="heading">Earned Leave</label><br><br><br><label for=""><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#3399ff" ></i></label>
-            <br><br><br><label for="">Available :</label>
-            <br><label for="">Booked :</label>
+            <br><br><br><label for="earneda">Available :  </label><br>
+            <progress id="earneda" value="32" max="100"> 32% </progress>
+            <br><label for="earnedb">Booked :  </label><br>
+            <progress id="earnedb" value="68" max="100"> 68% </progress>
           </div>
 
         </div>
         </td>
-        <td>
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
-          <label for="" class="heading">Leave Without Pay</label>  <br><br><br><label for=""><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#b30059"></i></label>
-            <!-- <br><br><br><label for="">Available :</label> -->
-            <br><br><br><label for="">Booked :</label>
+        <tr>
+          <td>
+            <div class="card " >
+            <div class="card-body " style="background-color:powderblue">
+            <label for="" class="heading">Leave Without Pay</label>  <br><br><br><label for=""><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#b30059"></i></label>
+              <!-- <br><br><br><label for="">Available :</label> -->
+              <br><br><br><label for="withoutpay">Booked :  </label><br>
+              <progress id="withoutpay" value="68" max="100"> 68% </progress>
+            </div>
           </div>
-        </div>
-        </td>
-        <td>
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
-             <label for="" class="heading">On Duty Leave(WFH)</label><br><br><label for=""><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#cccc00"></i></label>
-             <br><br><br><label for="">Available :</label>
-             <br><label for="">Booked :</label>
+          </td>
+          <td>
+            <div class="card " >
+            <div class="card-body cls ">
+               <label for="" class="heading">On Duty Leave(WFH)</label><br><br><br><label for=""><i class="fa fa-lg fa-calendar-check"  style="font-size:48px; color:#cccc00"></i></label>
+               <br><br><br><label for="oda">Available :  </label><br>
+                 <progress id="oda" value="32" max="100"> 32% </progress>
+               <br><label for="odb">Booked :  </label><br>
+               <progress id="odb" value="68" max="100"> 68% </progress>
+            </div>
           </div>
-        </div>
-        </td>
-        <td>
-          <div class="card" style="background-color:#ffffff;">
-          <div class="card-body">
-            <label for="" class="heading">Sick Leave</label><br><br><br><label for=""><i class="fa fa-lg fa-stethoscope" style="font-size:48px; color:#9900ff"></i></label>
-            <br><br><br><label for="">Available :</label>
-            <br><label for="">Booked :</label>
+          </td>
+          <td>
+            <div class="card " >
+            <div class="card-body " style="background-color:powderblue">
+              <label for="" class="heading">Sick Leave</label><br><br><br><label for=""><i class="fa fa-lg fa-stethoscope" style="font-size:48px; color:#9900ff"></i></label>
+              <br><br><br><label for="sicka">Available :  </label><br>
+              <progress id="sicka" value="32" max="100"> 32% </progress>
+              <br><label for="sickb">Booked :</label><br>
+              <progress id="sickb" value="68" max="100"> 68% </progress>
+            </div>
           </div>
-        </div>
-        </td>
-      </tr>
+          </td>
+        </tr>
+        </tr>
+
     </table>
-
+</div>
   </div>
-  <div class="down">
+  <div class="down cls">
     <div >
       <label class="heading">Leave/Holidays List</label>
 
             <button type="button" name="button" class="btn btn-dark c" >upcoming</button>
-            <button type="button" name="button" class="btn">History</button>
+            <button type="button" name="button" class="btn btn-primary">History</button>
 
     </div>
 

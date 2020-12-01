@@ -1,12 +1,16 @@
 body{
-background-image: url("img.jpg");
-background-size:1920px 1080px;
+background: url("img.jpg") no-repeat center center fixed;
+background-size:cover;
+}
+.box{
+ 
+  max-width: 25%;
+  padding-top: 130px;
 }
 .bck{
-  margin: 190px;
+  /* margin: 190px; */
 
-width: 350px;
-height: 450px;
+max-width: 100%;
 padding: 10px;
 opacity: 0.85;
 background-color:white;
@@ -16,7 +20,7 @@ color: rgb(0, 41, 102);
 .pg{
 
   text-align: left;
-margin-top: 60px;
+  margin-top: auto;
 
 }
 .txt{
